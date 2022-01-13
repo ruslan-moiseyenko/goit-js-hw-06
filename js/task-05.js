@@ -3,8 +3,8 @@ const output = document.getElementById('name-output');
 
 input.addEventListener('input', (event) => {
     if (event.currentTarget.value) {
-        output.innerText = event.currentTarget.value;
+        output.textContent = event.currentTarget.value;
     } else {
-        output.innerText = "Anonymous";
+        output.textContent = "Anonymous";
     };
 });
